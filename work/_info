@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vclk_divider
+Z0 !s110 1731943131
+!i10b 1
+!s100 jFTS7GoZfOH8ZbY?JC3gT3
+I;K1MfV@iiac9C1IgLS5Yg1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj
+w1731942642
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/clk_divider.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/clk_divider.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1731943131.000000
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/clk_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/clk_divider.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vphase_accumulator
+R0
+!i10b 1
+!s100 odKCFGmM4IzNnF9ZzJC;z3
+I42Dzn[AE:GH0MaTb3oFTi1
+R1
+R2
+w1731939393
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_accumulator.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_accumulator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_accumulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_accumulator.v|
+!i113 1
+R5
+R6
+vphase_to_amplitude_converter
+R0
+!i10b 1
+!s100 3?78?7^?^kL:4bFlk7Pe=0
+I<MMz@MNgbB8;]BLigm>7J1
+R1
+R2
+w1731939401
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_to_amplitude_converter.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_to_amplitude_converter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_to_amplitude_converter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_to_amplitude_converter.v|
+!i113 1
+R5
+R6
+vsine_wave_generator
+R0
+!i10b 1
+!s100 zLYOzAnX3d3BcGf1UWT6o1
+IJRzF:gNHBJP4T;<fAc4GL3
+R1
+R2
+w1731939413
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/sine_wave_generator.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/sine_wave_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/sine_wave_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/sine_wave_generator.v|
+!i113 1
+R5
+R6
+vtestbench
+!s110 1731943130
+!i10b 1
+!s100 CI2<m<=TbDAg=d=EUo2;z0
+I16GzXQZO<DJk7P^SeNK@93
+R1
+R2
+w1731943114
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/testbench.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1731943130.000000
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/testbench.v|
+!i113 1
+R5
+R6
