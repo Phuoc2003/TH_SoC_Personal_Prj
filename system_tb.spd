@@ -206,9 +206,29 @@
    type="VERILOG"
    library="Sine_Wave_Generator_0" />
  <file
-   path="system/testbench/system_tb/simulation/submodules/altera_conduit_bfm.sv"
+   path="system/testbench/system_tb/simulation/submodules/phase_accumulator.v"
+   type="VERILOG"
+   library="Sine_Wave_Generator_0" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/phase_to_amplitude_converter.v"
+   type="VERILOG"
+   library="Sine_Wave_Generator_0" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/sine_wave_csr.v"
+   type="VERILOG"
+   library="Sine_Wave_Generator_0" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/sine_wave_generator.v"
+   type="VERILOG"
+   library="Sine_Wave_Generator_0" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/clk_divider.v"
+   type="VERILOG"
+   library="Sine_Wave_Generator_0" />
+ <file
+   path="system/testbench/system_tb/simulation/submodules/altera_avalon_reset_source.sv"
    type="SYSTEM_VERILOG"
-   library="system_inst_sine_wave_generator_0_conduit_end_bfm" />
+   library="system_inst_reset_bfm" />
  <file
    path="system/testbench/system_tb/simulation/submodules/altera_avalon_clock_source.sv"
    type="SYSTEM_VERILOG"

@@ -6,8 +6,9 @@ module sine_wrapper_tb();
 	 reg         ChipSelect;
 	 reg         Write;
 	 reg         Read;
-	 reg  [0:0]  Address;
+	 reg  [1:0]  Address;
 	 reg 	[31:0] WriteData;
+	 wire [31:0] ReadData;
 	 wire [9:0]  oData_sin;
    
 	
@@ -19,6 +20,7 @@ module sine_wrapper_tb();
 									.Read(Read),
 									.Address(Address),
 									.WriteData(WriteData),
+									.ReadData(ReadData),
 									.oData_sin(oData_sin)
 								  );
 	 
@@ -54,12 +56,22 @@ module sine_wrapper_tb();
         Write = 1;
         Address = 1; 
         WriteData = 1;
+		  
+		  #20;
+        ChipSelect = 1;
+        Read = 1;
+        Address = 2; 
       
 		  #10000000;
         ChipSelect = 1;
         Write = 1;
         Address = 1; 
         WriteData = 0;
+		  
+		  #20;
+        ChipSelect = 1;
+        Read = 0;
+        Address = 2; 
 		  
 		  #1000;
         ChipSelect = 1;

@@ -6,12 +6,13 @@
 module system_tb (
 	);
 
-	wire        system_inst_clk_bfm_clk_clk;                          // system_inst_clk_bfm:clk -> [system_inst:clk_clk, system_inst_sine_wave_generator_0_conduit_end_bfm:clk]
-	wire  [9:0] system_inst_sine_wave_generator_0_conduit_end_export; // system_inst:sine_wave_generator_0_conduit_end_export -> system_inst_sine_wave_generator_0_conduit_end_bfm:sig_export
+	wire    system_inst_clk_bfm_clk_clk;       // system_inst_clk_bfm:clk -> [system_inst:clk_clk, system_inst_reset_bfm:clk]
+	wire    system_inst_reset_bfm_reset_reset; // system_inst_reset_bfm:reset -> system_inst:reset_reset_n
 
 	system system_inst (
-		.clk_clk                                  (system_inst_clk_bfm_clk_clk),                          //                               clk.clk
-		.sine_wave_generator_0_conduit_end_export (system_inst_sine_wave_generator_0_conduit_end_export)  // sine_wave_generator_0_conduit_end.export
+		.clk_clk                                  (system_inst_clk_bfm_clk_clk),       //                               clk.clk
+		.reset_reset_n                            (system_inst_reset_bfm_reset_reset), //                             reset.reset_n
+		.sine_wave_generator_0_conduit_end_export ()                                   // sine_wave_generator_0_conduit_end.export
 	);
 
 	altera_avalon_clock_source #(
@@ -21,10 +22,12 @@ module system_tb (
 		.clk (system_inst_clk_bfm_clk_clk)  // clk.clk
 	);
 
-	altera_conduit_bfm system_inst_sine_wave_generator_0_conduit_end_bfm (
-		.clk        (system_inst_clk_bfm_clk_clk),                          //     clk.clk
-		.sig_export (system_inst_sine_wave_generator_0_conduit_end_export), // conduit.export
-		.reset      (1'b0)                                                  // (terminated)
+	altera_avalon_reset_source #(
+		.ASSERT_HIGH_RESET    (0),
+		.INITIAL_RESET_CYCLES (50)
+	) system_inst_reset_bfm (
+		.reset (system_inst_reset_bfm_reset_reset), // reset.reset_n
+		.clk   (system_inst_clk_bfm_clk_clk)        //   clk.clk
 	);
 
 endmodule

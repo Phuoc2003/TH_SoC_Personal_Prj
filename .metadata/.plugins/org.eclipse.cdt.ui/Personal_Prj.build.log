@@ -1,0 +1,9 @@
+22:17:49 **** Incremental Build of configuration Nios II for project Personal_Prj ****
+make all 
+Info: Building ../Personal_Prj_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Personal_Prj_bsp/
+[BSP build complete]
+[RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj build complete]
+
+22:17:49 Build Finished (took 435ms)
+

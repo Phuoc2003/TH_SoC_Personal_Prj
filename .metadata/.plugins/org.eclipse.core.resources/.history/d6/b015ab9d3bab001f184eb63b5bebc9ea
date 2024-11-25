@@ -1,0 +1,21 @@
+/*
+ * source.c
+ *
+ *  Created on: 25-11-2024
+ *      Author: PeterPhan
+ */
+
+#include "stdio.h"
+#include "io.h"
+#include "system.h"
+
+int main(){
+	volatile int* sine_ptr = (int*)SINE_WAVE_GENERATOR_0_BASE;
+	*sine_ptr = 128;
+	*(sine_ptr + 1) = run;
+	while(1){
+		IORD((int)sine_ptr, 2);
+	}
+	return 1;
+}
+

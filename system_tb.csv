@@ -1,21 +1,26 @@
-# system info system_tb on 2024.11.25.17:39:43
+# system info system_tb on 2024.11.25.21:48:35
 system_info:
 name,value
 DEVICE,5CSXFC6D6F31C6
 DEVICE_FAMILY,Cyclone V
-GENERATION_ID,1732531163
+GENERATION_ID,1732546101
 #
 #
-# Files generated for system_tb on 2024.11.25.17:39:43
+# Files generated for system_tb on 2024.11.25.21:48:35
 files:
 filepath,kind,attributes,module,is_top
 system/testbench/system_tb/simulation/system_tb.v,VERILOG,,system_tb,true
 system/testbench/system_tb/simulation/submodules/system.v,VERILOG,,system,false
 system/testbench/system_tb/simulation/submodules/verbosity_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_vip_verbosity_pkg,altera_avalon_clock_source,false
 system/testbench/system_tb/simulation/submodules/altera_avalon_clock_source.sv,SYSTEM_VERILOG,,altera_avalon_clock_source,false
-system/testbench/system_tb/simulation/submodules/verbosity_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_vip_verbosity_pkg,altera_conduit_bfm,false
-system/testbench/system_tb/simulation/submodules/altera_conduit_bfm.sv,SYSTEM_VERILOG,,altera_conduit_bfm,false
+system/testbench/system_tb/simulation/submodules/verbosity_pkg.sv,SYSTEM_VERILOG, COMMON_SYSTEMVERILOG_PACKAGE=avalon_vip_verbosity_pkg,altera_avalon_reset_source,false
+system/testbench/system_tb/simulation/submodules/altera_avalon_reset_source.sv,SYSTEM_VERILOG,,altera_avalon_reset_source,false
 system/testbench/system_tb/simulation/submodules/sine_wave_wrapper.v,VERILOG,,sine_wave_wrapper,false
+system/testbench/system_tb/simulation/submodules/phase_accumulator.v,VERILOG,,sine_wave_wrapper,false
+system/testbench/system_tb/simulation/submodules/phase_to_amplitude_converter.v,VERILOG,,sine_wave_wrapper,false
+system/testbench/system_tb/simulation/submodules/sine_wave_csr.v,VERILOG,,sine_wave_wrapper,false
+system/testbench/system_tb/simulation/submodules/sine_wave_generator.v,VERILOG,,sine_wave_wrapper,false
+system/testbench/system_tb/simulation/submodules/clk_divider.v,VERILOG,,sine_wave_wrapper,false
 system/testbench/system_tb/simulation/submodules/system_jtag_uart_0.v,VERILOG,,system_jtag_uart_0,false
 system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0.v,VERILOG,,system_nios2_gen2_0,false
 system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.hex,HEX,,system_onchip_memory2_0,false
@@ -121,4 +126,4 @@ system_tb.system_inst.mm_interconnect_0.avalon_st_adapter_003.error_adapter_0,sy
 system_tb.system_inst.irq_mapper,system_irq_mapper
 system_tb.system_inst.rst_controller,altera_reset_controller
 system_tb.system_inst_clk_bfm,altera_avalon_clock_source
-system_tb.system_inst_sine_wave_generator_0_conduit_end_bfm,altera_conduit_bfm
+system_tb.system_inst_reset_bfm,altera_avalon_reset_source

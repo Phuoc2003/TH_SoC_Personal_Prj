@@ -25,7 +25,7 @@
          type = "int";
       }
    }
-   element system_inst_sine_wave_generator_0_conduit_end_bfm
+   element system_inst_reset_bfm
    {
       datum _sortIndex
       {
@@ -47,7 +47,7 @@
  <parameter name="hideFromIPCatalog" value="false" />
  <parameter name="lockedInterfaceDefinition" value="" />
  <parameter name="maxAdditionalLatency" value="1" />
- <parameter name="projectName" value="" />
+ <parameter name="projectName" value="Personal_Prj.qpf" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="0" />
  <parameter name="testBenchDutName" value="system" />
@@ -73,15 +73,12 @@
   <parameter name="CLOCK_UNIT" value="1" />
  </module>
  <module
-   name="system_inst_sine_wave_generator_0_conduit_end_bfm"
-   kind="altera_conduit_bfm"
+   name="system_inst_reset_bfm"
+   kind="altera_avalon_reset_source"
    version="18.1"
    enabled="1">
-  <parameter name="CLOCKED_SIGNAL" value="true" />
-  <parameter name="ENABLE_RESET" value="false" />
-  <parameter name="SIGNAL_DIRECTIONS" value="input" />
-  <parameter name="SIGNAL_ROLES" value="export" />
-  <parameter name="SIGNAL_WIDTHS" value="10" />
+  <parameter name="ASSERT_HIGH_RESET" value="0" />
+  <parameter name="INITIAL_RESET_CYCLES" value="50" />
  </module>
  <connection
    kind="clock"
@@ -92,18 +89,12 @@
    kind="clock"
    version="18.1"
    start="system_inst_clk_bfm.clk"
-   end="system_inst_sine_wave_generator_0_conduit_end_bfm.clk" />
+   end="system_inst_reset_bfm.clk" />
  <connection
-   kind="conduit"
+   kind="reset"
    version="18.1"
-   start="system_inst_sine_wave_generator_0_conduit_end_bfm.conduit"
-   end="system_inst.sine_wave_generator_0_conduit_end">
-  <parameter name="endPort" value="" />
-  <parameter name="endPortLSB" value="0" />
-  <parameter name="startPort" value="" />
-  <parameter name="startPortLSB" value="0" />
-  <parameter name="width" value="0" />
- </connection>
+   start="system_inst_reset_bfm.reset"
+   end="system_inst.reset" />
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.enableEccProtection" value="FALSE" />
  <interconnectRequirement for="$system" name="qsys_mm.insertDefaultSlave" value="FALSE" />

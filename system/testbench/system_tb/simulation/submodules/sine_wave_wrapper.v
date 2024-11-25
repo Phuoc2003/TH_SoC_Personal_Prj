@@ -5,15 +5,18 @@ module sine_wave_wrapper(
 								 input         ChipSelect,
 								 input         Write,
 								 input         Read,
-								 input         [0:0] Address,
-								 input [31:0] WriteData,
+								 input  [1:0]  Address,
+								 input  [31:0] WriteData,
 								 output [31:0] ReadData,
-								 output [9:0] oData_sin
+								 output [9:0]  oData_sin
 								 );
 
 	wire run, clk_1Mhz;
 	wire [7:0] fcw;
 	wire [9:0] phase;
+	wire [9:0] data_sin;
+	
+	assign data_sin = oData_sin;
 
 	sine_wave_csr CSR(
 							.Clk         (Clk        ),
@@ -23,8 +26,10 @@ module sine_wave_wrapper(
 							.Read        (Read       ),
 							.Address     (Address    ),
 							.WriteData   (WriteData  ),
+							.ReadData 	 (ReadData   ),
 							.run         (run        ),
-							.fcw		    (fcw	 	    )
+							.fcw		    (fcw	 	    ),
+							.data_sin	 (data_sin	 )
 						  );
 
 	clk_divider clk_div(

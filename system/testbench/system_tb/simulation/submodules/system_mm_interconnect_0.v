@@ -43,7 +43,7 @@ module system_mm_interconnect_0 (
 		output wire [3:0]  onchip_memory2_0_s1_byteenable,                  //                                         .byteenable
 		output wire        onchip_memory2_0_s1_chipselect,                  //                                         .chipselect
 		output wire        onchip_memory2_0_s1_clken,                       //                                         .clken
-		output wire [0:0]  Sine_Wave_Generator_0_avalon_slave_0_address,    //     Sine_Wave_Generator_0_avalon_slave_0.address
+		output wire [1:0]  Sine_Wave_Generator_0_avalon_slave_0_address,    //     Sine_Wave_Generator_0_avalon_slave_0.address
 		output wire        Sine_Wave_Generator_0_avalon_slave_0_write,      //                                         .write
 		output wire        Sine_Wave_Generator_0_avalon_slave_0_read,       //                                         .read
 		input  wire [31:0] Sine_Wave_Generator_0_avalon_slave_0_readdata,   //                                         .readdata
@@ -557,7 +557,7 @@ module system_mm_interconnect_0 (
 	);
 
 	altera_merlin_slave_translator #(
-		.AV_ADDRESS_W                   (1),
+		.AV_ADDRESS_W                   (2),
 		.AV_DATA_W                      (32),
 		.UAV_DATA_W                     (32),
 		.AV_BURSTCOUNT_W                (1),

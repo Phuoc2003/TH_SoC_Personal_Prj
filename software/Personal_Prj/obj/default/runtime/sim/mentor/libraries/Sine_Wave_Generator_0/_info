@@ -1,0 +1,136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/software/Personal_Prj/obj/default/runtime/sim/mentor
+vclk_divider
+Z1 !s110 1732547879
+!i10b 1
+!s100 n1gj`2[o?VhJ[M<adl70f0
+IYXK<1`fNNh633@P0mN_R[0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1732546107
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1732547879.000000
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v|
+!s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v|-work|Sine_Wave_Generator_0|
+!i113 1
+Z6 o-work Sine_Wave_Generator_0
+Z7 tCvgOpt 0
+vphase_accumulator
+R1
+!i10b 1
+!s100 odKCFGmM4IzNnF9ZzJC;z3
+Iz62?iVd]M9FH0Y9Md1hGe1
+R2
+R0
+R3
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_accumulator.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_accumulator.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_accumulator.v|
+!s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_accumulator.v|-work|Sine_Wave_Generator_0|
+!i113 1
+R6
+R7
+vphase_to_amplitude_converter
+R1
+!i10b 1
+!s100 3?78?7^?^kL:4bFlk7Pe=0
+INoh@E:a_6<8GOS[`fGCID0
+R2
+R0
+R3
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_to_amplitude_converter.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_to_amplitude_converter.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_to_amplitude_converter.v|
+!s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_to_amplitude_converter.v|-work|Sine_Wave_Generator_0|
+!i113 1
+R6
+R7
+vsine_wave_csr
+R1
+!i10b 1
+!s100 ZX?1F7iTNH6XJ;QGzTJXf3
+Ij[K>J?]N68LDSL7_Q`bnF3
+R2
+R0
+R3
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_csr.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_csr.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_csr.v|
+!s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_csr.v|-work|Sine_Wave_Generator_0|
+!i113 1
+R6
+R7
+vsine_wave_generator
+R1
+!i10b 1
+!s100 zLYOzAnX3d3BcGf1UWT6o1
+I60;02hFA?WCV:<Qd`d]X?1
+R2
+R0
+R3
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_generator.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_generator.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_generator.v|
+!s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_generator.v|-work|Sine_Wave_Generator_0|
+!i113 1
+R6
+R7
+vsine_wave_wrapper
+R1
+!i10b 1
+!s100 81N;M8<;:4h4FYDF^a@L:0
+IOl9=:kHEb^ZJnidbX21cW1
+R2
+R0
+R3
+8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_wrapper.v
+FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_wrapper.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_wrapper.v|
+!s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_wrapper.v|-work|Sine_Wave_Generator_0|
+!i113 1
+R6
+R7

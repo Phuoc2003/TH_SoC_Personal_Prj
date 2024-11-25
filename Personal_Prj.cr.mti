@@ -5,6 +5,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	clk_divider
 
+} {} {}} C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v {1 {vlog -work work -stats=none C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sine_wrapper_tb
+
+Top level modules:
+	sine_wrapper_tb
+
 } {} {}} D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v {1 {vlog -work work -stats=none D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module phase_to_amplitude_converter
@@ -26,6 +33,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	testbench
 
+} {} {}} C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v {1 {vlog -work work -stats=none C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sine_wave_generator
+
+Top level modules:
+	sine_wave_generator
+
 } {} {}} D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v {1 {vlog -work work -stats=none D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module phase_accumulator
@@ -33,7 +47,21 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	phase_accumulator
 
+} {} {}} C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v {1 {vlog -work work -stats=none C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module phase_accumulator
+
+Top level modules:
+	phase_accumulator
+
 } {} {}} D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v {1 {vlog -work work -stats=none D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sine_wave_wrapper
+
+Top level modules:
+	sine_wave_wrapper
+
+} {} {}} C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v {1 {vlog -work work -stats=none C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module sine_wave_wrapper
 
@@ -68,6 +96,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	testbench
 
+} {} {}} C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v {1 {vlog -work work -stats=none C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module phase_to_amplitude_converter
+
+Top level modules:
+	phase_to_amplitude_converter
+
+} {} {}} C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v {1 {vlog -work work -stats=none C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
 } {} {}} D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v {1 {vlog -work work -stats=none D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module sine_wave_csr
@@ -76,6 +118,20 @@ Top level modules:
 	sine_wave_csr
 
 } {} {}} D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v {1 {vlog -work work -stats=none D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_divider
+
+Top level modules:
+	clk_divider
+
+} {} {}} C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v {1 {vlog -work work -stats=none C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sine_wave_csr
+
+Top level modules:
+	sine_wave_csr
+
+} {} {}} C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v {1 {vlog -work work -stats=none C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module clk_divider
 

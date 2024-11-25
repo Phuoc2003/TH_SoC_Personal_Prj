@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2024.11.25.17:39:44
+# ACDS 18.1 625 win32 2024.11.25.21:48:35
 
 # ----------------------------------------
 # vcs - auto-generated simulation script
@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2024.11.25.17:39:44
+# ACDS 18.1 625 win32 2024.11.25.21:48:35
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="system_tb"
@@ -190,7 +190,12 @@ vcs -lca -timescale=1ps/1ps -sverilog +verilog2001ext+.v -ntb_opts dtm $ELAB_OPT
   $QSYS_SIMDIR/system_tb/simulation/submodules/system_nios2_gen2_0.v \
   $QSYS_SIMDIR/system_tb/simulation/submodules/system_jtag_uart_0.v \
   $QSYS_SIMDIR/system_tb/simulation/submodules/sine_wave_wrapper.v \
-  $QSYS_SIMDIR/system_tb/simulation/submodules/altera_conduit_bfm.sv \
+  $QSYS_SIMDIR/system_tb/simulation/submodules/phase_accumulator.v \
+  $QSYS_SIMDIR/system_tb/simulation/submodules/phase_to_amplitude_converter.v \
+  $QSYS_SIMDIR/system_tb/simulation/submodules/sine_wave_csr.v \
+  $QSYS_SIMDIR/system_tb/simulation/submodules/sine_wave_generator.v \
+  $QSYS_SIMDIR/system_tb/simulation/submodules/clk_divider.v \
+  $QSYS_SIMDIR/system_tb/simulation/submodules/altera_avalon_reset_source.sv \
   $QSYS_SIMDIR/system_tb/simulation/submodules/altera_avalon_clock_source.sv \
   $QSYS_SIMDIR/system_tb/simulation/submodules/system.v \
   $QSYS_SIMDIR/system_tb/simulation/system_tb.v \

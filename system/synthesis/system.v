@@ -30,7 +30,7 @@ module system (
 	wire  [31:0] mm_interconnect_0_jtag_uart_0_avalon_jtag_slave_writedata;         // mm_interconnect_0:jtag_uart_0_avalon_jtag_slave_writedata -> jtag_uart_0:av_writedata
 	wire         mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_chipselect; // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_chipselect -> Sine_Wave_Generator_0:ChipSelect
 	wire  [31:0] mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_readdata;   // Sine_Wave_Generator_0:ReadData -> mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_readdata
-	wire   [0:0] mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_address;    // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_address -> Sine_Wave_Generator_0:Address
+	wire   [1:0] mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_address;    // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_address -> Sine_Wave_Generator_0:Address
 	wire         mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_read;       // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_read -> Sine_Wave_Generator_0:Read
 	wire         mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_write;      // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_write -> Sine_Wave_Generator_0:Write
 	wire  [31:0] mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_writedata;  // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_writedata -> Sine_Wave_Generator_0:WriteData

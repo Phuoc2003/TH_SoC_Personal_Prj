@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="system" kind="system" version="1.0" fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2024.11.25.17:50:01 -->
+ <!-- 2024.11.25.21:48:17 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1732531801</value>
+  <value>1732546097</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -156,7 +156,7 @@ parameters are a RESULT of the module parameters. -->
    </parameter>
    <parameter name="addressSpan">
     <type>java.math.BigInteger</type>
-    <value>8</value>
+    <value>16</value>
     <derived>true</derived>
     <enabled>true</enabled>
     <visible>false</visible>
@@ -473,7 +473,7 @@ parameters are a RESULT of the module parameters. -->
    <port>
     <name>Address</name>
     <direction>Input</direction>
-    <width>1</width>
+    <width>2</width>
     <role>address</role>
    </port>
    <port>
@@ -3289,7 +3289,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="instSlaveMapParam">
    <type>java.lang.String</type>
-   <value><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x8000' end='0x10000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x10800' end='0x11000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x11010' end='0x11018' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></value>
+   <value><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x8000' end='0x10000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x10800' end='0x11000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x11018' end='0x11020' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3309,7 +3309,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="dataSlaveMapParam">
    <type>java.lang.String</type>
-   <value><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x8000' end='0x10000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x10800' end='0x11000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='Sine_Wave_Generator_0.avalon_slave_0' start='0x11008' end='0x11010' type='Sine_Wave_Generator.avalon_slave_0' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x11010' end='0x11018' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></value>
+   <value><![CDATA[<address-map><slave name='onchip_memory2_0.s1' start='0x8000' end='0x10000' type='altera_avalon_onchip_memory2.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x10800' end='0x11000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='Sine_Wave_Generator_0.avalon_slave_0' start='0x11000' end='0x11010' type='Sine_Wave_Generator.avalon_slave_0' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x11018' end='0x11020' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -3980,7 +3980,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>jtag_uart_0</moduleName>
     <slaveName>avalon_jtag_slave</slaveName>
     <name>jtag_uart_0.avalon_jtag_slave</name>
-    <baseAddress>69648</baseAddress>
+    <baseAddress>69656</baseAddress>
     <span>8</span>
    </memoryBlock>
    <memoryBlock>
@@ -3988,8 +3988,8 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>Sine_Wave_Generator_0</moduleName>
     <slaveName>avalon_slave_0</slaveName>
     <name>Sine_Wave_Generator_0.avalon_slave_0</name>
-    <baseAddress>69640</baseAddress>
-    <span>8</span>
+    <baseAddress>69632</baseAddress>
+    <span>16</span>
    </memoryBlock>
    <memoryBlock>
     <isBridge>false</isBridge>
@@ -4299,7 +4299,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>jtag_uart_0</moduleName>
     <slaveName>avalon_jtag_slave</slaveName>
     <name>jtag_uart_0.avalon_jtag_slave</name>
-    <baseAddress>69648</baseAddress>
+    <baseAddress>69656</baseAddress>
     <span>8</span>
    </memoryBlock>
    <memoryBlock>
@@ -5797,7 +5797,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x00011010</value>
+   <value>0x00011018</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -5848,7 +5848,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x00011008</value>
+   <value>0x00011000</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -6001,7 +6001,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x00011010</value>
+   <value>0x00011018</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

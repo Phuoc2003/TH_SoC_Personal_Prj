@@ -1,0 +1,60 @@
+21:52:57 **** Incremental Build of configuration Nios II for project Personal_Prj ****
+make all 
+Info: Building ../Personal_Prj_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Personal_Prj_bsp/
+[BSP build complete]
+Info: Compiling source.c to obj/default/source.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Personal_Prj_bsp//HAL/inc -I../Personal_Prj_bsp/ -I../Personal_Prj_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DALT_SIM_OPTIMIZE -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/source.o source.c
+Info: Linking RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf
+nios2-elf-g++  -T'../Personal_Prj_bsp//linker.x' -msys-crt0='../Personal_Prj_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Personal_Prj_bsp/  -msmallc  -Wl,-Map=RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf obj/default/source.o -lm -msys-lib=m
+nios2-elf-insert RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system --quartus_project_dir "C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj" --jdi ../..//output_files/sys_top.jdi --sopcinfo C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/software/Personal_Prj_bsp/../../system.sopcinfo
+Info: (RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf) 5664 Bytes program size (code + initialized data).
+Info:                                              25 KBytes free for stack + heap.
+Info: Creating RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf >RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.objdump
+[RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj build complete]
+21:53:02 **** Build of configuration Nios II for project Personal_Prj ****
+make all 
+Info: Building ../Personal_Prj_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Personal_Prj_bsp/
+[BSP build complete]
+[RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj build complete]
+21:53:03 **** Incremental Build of configuration Nios II for project Personal_Prj ****
+make all 
+Info: Building ../Personal_Prj_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Personal_Prj_bsp/
+[BSP build complete]
+[RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj build complete]
+21:53:57 **** Build of configuration Nios II for project Personal_Prj ****
+make all 
+Info: Building ../Personal_Prj_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Personal_Prj_bsp/
+[BSP build complete]
+Info: Compiling source.c to obj/default/source.o
+nios2-elf-gcc -xc -MP -MMD -c -I../Personal_Prj_bsp//HAL/inc -I../Personal_Prj_bsp/ -I../Personal_Prj_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DALT_SIM_OPTIMIZE -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/source.o source.c
+Info: Linking RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf
+nios2-elf-g++  -T'../Personal_Prj_bsp//linker.x' -msys-crt0='../Personal_Prj_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../Personal_Prj_bsp/  -msmallc  -Wl,-Map=RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf obj/default/source.o -lm -msys-lib=m
+nios2-elf-insert RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf --thread_model hal --cpu_name nios2_gen2_0 --qsys true --simulation_enabled false --stderr_dev jtag_uart_0 --stdin_dev jtag_uart_0 --stdout_dev jtag_uart_0 --sopc_system_name system --quartus_project_dir "C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj" --jdi ../..//output_files/sys_top.jdi --sopcinfo C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/software/Personal_Prj_bsp/../../system.sopcinfo
+Info: (RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf) 5680 Bytes program size (code + initialized data).
+Info:                                              25 KBytes free for stack + heap.
+Info: Creating RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.elf >RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj.objdump
+[RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj build complete]
+21:53:58 **** Incremental Build of configuration Nios II for project Personal_Prj ****
+make all 
+Info: Building ../Personal_Prj_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Personal_Prj_bsp/
+[BSP build complete]
+[RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj build complete]
+22:17:46 **** Build of configuration Nios II for project Personal_Prj ****
+make all 
+Info: Building ../Personal_Prj_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Personal_Prj_bsp/
+[BSP build complete]
+[RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj build complete]
+22:17:49 **** Incremental Build of configuration Nios II for project Personal_Prj ****
+make all 
+Info: Building ../Personal_Prj_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Personal_Prj_bsp/
+[BSP build complete]
+[RUN_ON_HDL_SIMULATOR_ONLY_Personal_Prj build complete]

@@ -5,10 +5,10 @@
 `timescale 1 ps / 1 ps
 module system (
 		input  wire       clk_clk,                                  //                               clk.clk
+		input  wire       reset_reset_n,                            //                             reset.reset_n
 		output wire [9:0] sine_wave_generator_0_conduit_end_export  // sine_wave_generator_0_conduit_end.export
 	);
 
-	wire         nios2_gen2_0_debug_reset_request_reset;                            // nios2_gen2_0:debug_reset_request -> [rst_controller:reset_in0, rst_controller:reset_in1]
 	wire  [31:0] nios2_gen2_0_data_master_readdata;                                 // mm_interconnect_0:nios2_gen2_0_data_master_readdata -> nios2_gen2_0:d_readdata
 	wire         nios2_gen2_0_data_master_waitrequest;                              // mm_interconnect_0:nios2_gen2_0_data_master_waitrequest -> nios2_gen2_0:d_waitrequest
 	wire         nios2_gen2_0_data_master_debugaccess;                              // nios2_gen2_0:debug_mem_slave_debugaccess_to_roms -> mm_interconnect_0:nios2_gen2_0_data_master_debugaccess
@@ -30,7 +30,7 @@ module system (
 	wire  [31:0] mm_interconnect_0_jtag_uart_0_avalon_jtag_slave_writedata;         // mm_interconnect_0:jtag_uart_0_avalon_jtag_slave_writedata -> jtag_uart_0:av_writedata
 	wire         mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_chipselect; // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_chipselect -> Sine_Wave_Generator_0:ChipSelect
 	wire  [31:0] mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_readdata;   // Sine_Wave_Generator_0:ReadData -> mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_readdata
-	wire   [0:0] mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_address;    // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_address -> Sine_Wave_Generator_0:Address
+	wire   [1:0] mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_address;    // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_address -> Sine_Wave_Generator_0:Address
 	wire         mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_read;       // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_read -> Sine_Wave_Generator_0:Read
 	wire         mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_write;      // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_write -> Sine_Wave_Generator_0:Write
 	wire  [31:0] mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_writedata;  // mm_interconnect_0:Sine_Wave_Generator_0_avalon_slave_0_writedata -> Sine_Wave_Generator_0:WriteData
@@ -52,6 +52,7 @@ module system (
 	wire  [31:0] nios2_gen2_0_irq_irq;                                              // irq_mapper:sender_irq -> nios2_gen2_0:irq
 	wire         rst_controller_reset_out_reset;                                    // rst_controller:reset_out -> [Sine_Wave_Generator_0:ResetN, irq_mapper:reset, jtag_uart_0:rst_n, mm_interconnect_0:nios2_gen2_0_reset_reset_bridge_in_reset_reset, nios2_gen2_0:reset_n, onchip_memory2_0:reset, rst_translator:in_reset]
 	wire         rst_controller_reset_out_reset_req;                                // rst_controller:reset_req -> [nios2_gen2_0:reset_req, onchip_memory2_0:reset_req, rst_translator:reset_req_in]
+	wire         nios2_gen2_0_debug_reset_request_reset;                            // nios2_gen2_0:debug_reset_request -> rst_controller:reset_in1
 
 	sine_wave_wrapper sine_wave_generator_0 (
 		.ChipSelect (mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_chipselect), // avalon_slave_0.chipselect
@@ -198,7 +199,7 @@ module system (
 		.USE_RESET_REQUEST_IN15    (0),
 		.ADAPT_RESET_REQUEST       (0)
 	) rst_controller (
-		.reset_in0      (nios2_gen2_0_debug_reset_request_reset), // reset_in0.reset
+		.reset_in0      (~reset_reset_n),                         // reset_in0.reset
 		.reset_in1      (nios2_gen2_0_debug_reset_request_reset), // reset_in1.reset
 		.clk            (clk_clk),                                //       clk.clk
 		.reset_out      (rst_controller_reset_out_reset),         // reset_out.reset
