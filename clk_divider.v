@@ -1,9 +1,10 @@
 module clk_divider(
-						 input CLOCK_50,
+						 input Clk,
 						 input run,
-						 output reg clk_1Mhz = 0);
+						 output reg clk_1Mhz = 0
+						);
 	reg [4:0] counter = 25-1;
-	always@(posedge CLOCK_50)
+	always@(posedge Clk)
 	begin
 		if(run)
 		begin

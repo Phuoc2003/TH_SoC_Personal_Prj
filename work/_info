@@ -9,23 +9,23 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/18.1
 vclk_divider
-Z0 !s110 1731943131
+Z0 !s110 1732529644
 !i10b 1
-!s100 jFTS7GoZfOH8ZbY?JC3gT3
-I;K1MfV@iiac9C1IgLS5Yg1
+!s100 n1gj`2[o?VhJ[M<adl70f0
+IM=9^jBg>fV6O3:BQM_f1T0
 Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj
-w1731942642
-8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/clk_divider.v
-FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/clk_divider.v
+Z2 dD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj
+w1732525759
+8D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v
+FD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v
 L0 1
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1731943131.000000
-!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/clk_divider.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/clk_divider.v|
+Z4 !s108 1732529644.000000
+!s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
@@ -33,20 +33,20 @@ vphase_accumulator
 R0
 !i10b 1
 !s100 odKCFGmM4IzNnF9ZzJC;z3
-I42Dzn[AE:GH0MaTb3oFTi1
+IK_:XM:8i]3OR[GhUzSc7X3
 R1
 R2
-w1731939393
-8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_accumulator.v
-FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_accumulator.v
+Z7 w1731986850
+8D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v
+FD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_accumulator.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_accumulator.v|
+!s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v|
 !i113 1
 R5
 R6
@@ -54,20 +54,41 @@ vphase_to_amplitude_converter
 R0
 !i10b 1
 !s100 3?78?7^?^kL:4bFlk7Pe=0
-I<MMz@MNgbB8;]BLigm>7J1
+IOmZm2W?UnVl^FzS1m7h=i1
 R1
 R2
-w1731939401
-8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_to_amplitude_converter.v
-FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_to_amplitude_converter.v
+R7
+8D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v
+FD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_to_amplitude_converter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/phase_to_amplitude_converter.v|
+!s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v|
+!i113 1
+R5
+R6
+vsine_wave_csr
+R0
+!i10b 1
+!s100 VBcH2S?XA=N;@TebdDgCI0
+I^ADGeCij=lcC2Qz6c78@W2
+R1
+R2
+w1731989043
+8D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v
+FD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v|
 !i113 1
 R5
 R6
@@ -75,41 +96,83 @@ vsine_wave_generator
 R0
 !i10b 1
 !s100 zLYOzAnX3d3BcGf1UWT6o1
-IJRzF:gNHBJP4T;<fAc4GL3
+IM?9hk]m32NO9PADN3Mi:81
 R1
 R2
-w1731939413
-8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/sine_wave_generator.v
-FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/sine_wave_generator.v
+w1731987015
+8D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v
+FD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/sine_wave_generator.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/sine_wave_generator.v|
+!s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v|
 !i113 1
 R5
 R6
-vtestbench
-!s110 1731943130
+vsine_wave_wrapper
+R0
 !i10b 1
-!s100 CI2<m<=TbDAg=d=EUo2;z0
-I16GzXQZO<DJk7P^SeNK@93
+!s100 SWUbWi6UbE7P?9Imi^Nmd3
+IR]C`EQ02zE@XYo5_Yak`43
 R1
 R2
-w1731943114
-8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/testbench.v
-FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/testbench.v
+w1732525976
+8D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v
+FD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v|
+!i113 1
+R5
+R6
+vsine_wrapper_tb
+R0
+!i10b 1
+!s100 H8eL@@]1z^;:9k[KZBfo_2
+IbZzDQ7N;n<AEn]NmnObzK1
+R1
+R2
+w1732529638
+8D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v
+FD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v
 L0 3
 R3
 r1
 !s85 0
 31
-!s108 1731943130.000000
-!s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/testbench.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/testbench.v|
+R4
+!s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v|
+!i113 1
+R5
+R6
+vtestbench
+R0
+!i10b 1
+!s100 CI2<m<=TbDAg=d=EUo2;z0
+I=73eYF257`R926K3dWQHW1
+R1
+R2
+w1732526280
+8D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v
+FD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v|
 !i113 1
 R5
 R6

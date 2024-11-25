@@ -4,55 +4,43 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "phase[7]",
+					"name" : "GPIO[0]",
 					"strict" : false
 				},
 				{
-					"name" : "phase[8]",
+					"name" : "GPIO[1]",
 					"strict" : false
 				},
 				{
-					"name" : "phase[9]",
+					"name" : "GPIO[2]",
 					"strict" : false
 				},
 				{
-					"name" : "data_sin[0]",
+					"name" : "GPIO[3]",
 					"strict" : false
 				},
 				{
-					"name" : "data_sin[1]",
+					"name" : "GPIO[4]",
 					"strict" : false
 				},
 				{
-					"name" : "data_sin[2]",
+					"name" : "GPIO[5]",
 					"strict" : false
 				},
 				{
-					"name" : "data_sin[3]",
+					"name" : "GPIO[6]",
 					"strict" : false
 				},
 				{
-					"name" : "data_sin[4]",
+					"name" : "GPIO[7]",
 					"strict" : false
 				},
 				{
-					"name" : "data_sin[5]",
+					"name" : "CLOCK_50",
 					"strict" : false
 				},
 				{
-					"name" : "data_sin[6]",
-					"strict" : false
-				},
-				{
-					"name" : "data_sin[7]",
-					"strict" : false
-				},
-				{
-					"name" : "rst_n",
-					"strict" : false
-				},
-				{
-					"name" : "clk",
+					"name" : "KEY[0]",
 					"strict" : false
 				}
 			]

@@ -1,0 +1,34 @@
+module sine_wave_wrapper(
+								 input         Clk,
+								 input         ResetN,
+								 //avalon interface
+								 input         ChipSelect,
+								 input         Write,
+								 input         Read,
+								 input         [0:0] Address,
+								 input [31:0] WriteData
+								 );
+
+	wire run, clk_1Mhz;
+	wire [7:0] fcw;
+
+	sine_Wave_csr CSR(
+							.Clk         (Clk        ),
+							.ResetN      (ResetN     ),
+							.ChipSelect  (ChipSelect ), 
+							.Write       (Write      ),
+							.Read        (Read       ),
+							.Address     (Address    ),
+							.WriteData   (WriteData  ),
+							.run         (run        ),
+							.fcw		    (fcw	 	    )
+						  );
+
+	clk_divider clk_div(
+								.Clk(Clk),
+								.run(run),
+								.clk_1Mhz(clk_1Mhz)
+							 );
+				
+endmodule
+								 
