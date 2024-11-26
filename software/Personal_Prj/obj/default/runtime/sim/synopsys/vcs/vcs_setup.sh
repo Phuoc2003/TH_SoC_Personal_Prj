@@ -12,7 +12,7 @@
 # or its authorized distributors. Please refer to the applicable 
 # agreement for further details.
 
-# ACDS 18.1 625 win32 2024.11.25.21:49:27
+# ACDS 18.1 625 win32 2024.11.26.23:55:35
 
 # ----------------------------------------
 # vcs - auto-generated simulation script
@@ -94,7 +94,7 @@
 # within the Quartus project, and generate a unified
 # script which supports all the Altera IP within the design.
 # ----------------------------------------
-# ACDS 18.1 625 win32 2024.11.25.21:49:27
+# ACDS 18.1 625 win32 2024.11.26.23:55:35
 # ----------------------------------------
 # initialize variables
 TOP_LEVEL_NAME="system_tb"
@@ -158,18 +158,12 @@ vcs -lca -timescale=1ps/1ps -sverilog +verilog2001ext+.v -ntb_opts dtm $ELAB_OPT
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/verbosity_pkg.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_avalon_st_adapter.v \
-  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_mux_001.sv \
-  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_mux.sv \
-  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_demux_001.sv \
+  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_demux.sv \
-  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_mux_001.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_mux.sv \
-  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_demux_001.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_demux.sv \
-  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_003.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_002.sv \
-  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_001.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/altera_avalon_sc_fifo.v \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/altera_merlin_slave_agent.sv \
@@ -189,12 +183,12 @@ vcs -lca -timescale=1ps/1ps -sverilog +verilog2001ext+.v -ntb_opts dtm $ELAB_OPT
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_onchip_memory2_0.v \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0.v \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_jtag_uart_0.v \
-  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_wrapper.v \
+  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_accumulator.v \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/phase_to_amplitude_converter.v \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_csr.v \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_generator.v \
-  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v \
+  C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_wrapper.v \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/altera_avalon_reset_source.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/altera_avalon_clock_source.sv \
   C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system.v \

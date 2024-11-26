@@ -9,26 +9,26 @@ z2
 cModel Technology
 dC:/intelFPGA_lite/18.1
 vclk_divider
-Z0 !s110 1732545248
+Z0 !s110 1732639468
 !i10b 1
-!s100 n1gj`2[o?VhJ[M<adl70f0
-I7LHO?D0SGRb_jXGnKLW240
+!s100 Ik]n8P5Iek@kCzoVSW`6k3
+IC<VRgUa:fCmK0RB^O3mzb3
 Z1 VDg1SIo80bB@j0V0VzS_@n1
 Z2 dC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj
-Z3 w1732544069
+w1732634738
 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v
 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v
 L0 1
-Z4 OV;L;10.5b;63
+Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1732545248.000000
+Z4 !s108 1732639468.000000
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/clk_divider.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
+Z5 o-work work
+Z6 tCvgOpt 0
 vphase_accumulator
 R0
 !i10b 1
@@ -36,20 +36,20 @@ R0
 I>@2boHLD;JJO?agR87?672
 R1
 R2
-R3
+Z7 w1732544069
 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v
 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v
 L0 1
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_accumulator.v|
 !i113 1
+R5
 R6
-R7
 vphase_to_amplitude_converter
 R0
 !i10b 1
@@ -57,41 +57,41 @@ R0
 I^J]H?hFhoUWT<bE1JT1[P3
 R1
 R2
-R3
+R7
 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v
 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v
 L0 1
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/phase_to_amplitude_converter.v|
 !i113 1
+R5
 R6
-R7
 vsine_wave_csr
 R0
 !i10b 1
-!s100 ZX?1F7iTNH6XJ;QGzTJXf3
-I6Gj1^>L4C>9<[[>B=GE]<2
+!s100 THcZLKYl7f5<S]c>51<Kz3
+I4B[h]DVF^];9@OI=IWL[@1
 R1
 R2
-w1732544630
+w1732639462
 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v
 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v
 L0 1
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_csr.v|
 !i113 1
+R5
 R6
-R7
 vsine_wave_generator
 R0
 !i10b 1
@@ -99,62 +99,62 @@ R0
 IeK[?Bn>YaCk=NNV@WHG6j3
 R1
 R2
-R3
+R7
 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v
 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v
 L0 1
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_generator.v|
 !i113 1
+R5
 R6
-R7
 vsine_wave_wrapper
-R0
+Z8 !s110 1732639469
 !i10b 1
-!s100 81N;M8<;:4h4FYDF^a@L:0
-I@A^7;OUZ;<]Hb2fA1DWFH1
+!s100 AahW?>OlJYUQU30D;hek62
+I_a]?A^>]J=odBR9oZi>5O0
 R1
 R2
-w1732544686
+w1732635176
 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v
 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v
 L0 1
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_wrapper.v|
 !i113 1
+R5
 R6
-R7
 vsine_wrapper_tb
-R0
+R8
 !i10b 1
-!s100 ZK_z9KPR@eL>fWBjC>XK_2
-I0`dR<^8K>QkJP[<47T4<11
+!s100 S:[U3mKzk5@a99=j]Snfg0
+I@FF7EkTh`ZbojWZlMB?HQ0
 R1
 R2
-w1732545241
+w1732638868
 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v
 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v
 L0 3
-R4
+R3
 r1
 !s85 0
 31
-R5
+!s108 1732639469.000000
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wrapper_tb.v|
 !i113 1
+R5
 R6
-R7
 vtestbench
 R0
 !i10b 1
@@ -162,17 +162,17 @@ R0
 IJ2@c<8d_MLAPRfRc1TB?U2
 R1
 R2
-R3
+R7
 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v
 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v
 L0 3
-R4
+R3
 r1
 !s85 0
 31
-R5
+R4
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/sine_wave_gen_tb.v|
 !i113 1
+R5
 R6
-R7

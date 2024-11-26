@@ -36,30 +36,30 @@ Progress: Loading TH_SoC_Personal_Prj/Sine_Wave_Generator_hw.tcl
 Progress: Loading TH_SoC_Personal_Prj/system.qsys
 Info: C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/* matched 44 files in 0,02 seconds
 Info: C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/ip/**/* matched 0 files in 0,00 seconds
-Info: C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/*/* matched 347 files in 0,01 seconds
-Info: C:\4th_Year_1st_Sem\SoC\Lab\Personal_Prj\TH_SoC_Personal_Prj\system\testbench\system.ipx described 0 plugins, 3 paths, in 0,03 seconds
+Info: C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/*/* matched 130 files in 0,00 seconds
+Info: C:\4th_Year_1st_Sem\SoC\Lab\Personal_Prj\TH_SoC_Personal_Prj\system\testbench\system.ipx described 0 plugins, 3 paths, in 0,02 seconds
 Progress: Loading testbench/system_tb.qsys
-Info: C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/* matched 12 files in 0,03 seconds
+Info: C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/* matched 12 files in 0,02 seconds
 Info: C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/*/* matched 9 files in 0,00 seconds
 Info: C:/Users/Admin/.altera.quartus/ip/18.1/**/* matched 0 files in 0,00 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0,00 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0,00 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0,00 seconds
 Info: Reading index C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx
-Info: C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0,09 seconds
+Info: C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0,07 seconds
 Info: Reading index C:\intelfpga_lite\18.1\ip\altera\up.ipx
 Info: C:\intelfpga_lite\18.1\ip\altera\up.ipx described 3 plugins, 0 paths, in 0,00 seconds
-Info: C:/intelfpga_lite/18.1/ip/**/* matched 140 files in 0,09 seconds
+Info: C:/intelfpga_lite/18.1/ip/**/* matched 140 files in 0,07 seconds
 Info: C:/intelfpga_lite/ip/**/* matched 0 files in 0,00 seconds
 Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx
 Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0,00 seconds
-Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/**/* matched 8 files in 0,01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/**/* matched 8 files in 0,00 seconds
 Info: Reading index C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx
 Info: C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0,01 seconds
 Info: C:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0,01 seconds
 Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0,00 seconds
-Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0,14 seconds
-Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0,14 seconds
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0,11 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0,11 seconds
 Progress: 
 Progress: 
 Progress: 
@@ -167,12 +167,12 @@ Info: system_inst_reset_bfm: "system_tb" instantiated altera_avalon_reset_source
 Info: Reusing file C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/verbosity_pkg.sv
 Info: Sine_Wave_Generator_0: "system_inst" instantiated Sine_Wave_Generator "Sine_Wave_Generator_0"
 Info: jtag_uart_0: Starting RTL generation for module 'system_jtag_uart_0'
-Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=system_jtag_uart_0 --dir=C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0005_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0005_jtag_uart_0_gen//system_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0005_jtag_uart_0_gen/  ]
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=system_jtag_uart_0 --dir=C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0006_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0006_jtag_uart_0_gen//system_jtag_uart_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0006_jtag_uart_0_gen/  ]
 Info: jtag_uart_0: Done RTL generation for module 'system_jtag_uart_0'
 Info: jtag_uart_0: "system_inst" instantiated altera_avalon_jtag_uart "jtag_uart_0"
 Info: nios2_gen2_0: "system_inst" instantiated altera_nios2_gen2 "nios2_gen2_0"
 Info: onchip_memory2_0: Starting RTL generation for module 'system_onchip_memory2_0'
-Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=system_onchip_memory2_0 --dir=C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0006_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0006_onchip_memory2_0_gen//system_onchip_memory2_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0006_onchip_memory2_0_gen/  ]
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=system_onchip_memory2_0 --dir=C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0007_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0007_onchip_memory2_0_gen//system_onchip_memory2_0_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0007_onchip_memory2_0_gen/  ]
 Info: onchip_memory2_0: Done RTL generation for module 'system_onchip_memory2_0'
 Info: onchip_memory2_0: "system_inst" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
@@ -183,20 +183,20 @@ Info: mm_interconnect_0: "system_inst" instantiated altera_mm_interconnect "mm_i
 Info: irq_mapper: "system_inst" instantiated altera_irq_mapper "irq_mapper"
 Info: rst_controller: "system_inst" instantiated altera_reset_controller "rst_controller"
 Info: cpu: Starting RTL generation for module 'system_nios2_gen2_0_cpu'
-Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=system_nios2_gen2_0_cpu --dir=C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0009_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0009_cpu_gen//system_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0009_cpu_gen/  ]
-Info: cpu: # 2024.11.25 21:45:08 (*) Starting Nios II generation
-Info: cpu: # 2024.11.25 21:45:08 (*)   Checking for plaintext license.
-Info: cpu: # 2024.11.25 21:45:08 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
-Info: cpu: # 2024.11.25 21:45:08 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
-Info: cpu: # 2024.11.25 21:45:08 (*)   LM_LICENSE_FILE environment variable is empty
-Info: cpu: # 2024.11.25 21:45:08 (*)   Plaintext license not found.
-Info: cpu: # 2024.11.25 21:45:08 (*)   No license required to generate encrypted Nios II/e.
-Info: cpu: # 2024.11.25 21:45:08 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2024.11.25 21:45:08 (*)   Creating all objects for CPU
-Info: cpu: # 2024.11.25 21:45:09 (*)   Creating 'C:/Users/Admin/AppData/Local/Temp/alt0052_7600066054852499556.dir/0009_cpu_gen//system_nios2_gen2_0_cpu_nios2_waves.do'
-Info: cpu: # 2024.11.25 21:45:09 (*)   Generating RTL from CPU objects
-Info: cpu: # 2024.11.25 21:45:09 (*)   Creating plain-text RTL
-Info: cpu: # 2024.11.25 21:45:09 (*) Done Nios II generation
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=system_nios2_gen2_0_cpu --dir=C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0010_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0010_cpu_gen//system_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0010_cpu_gen/  ]
+Info: cpu: # 2024.11.26 22:03:49 (*) Starting Nios II generation
+Info: cpu: # 2024.11.26 22:03:49 (*)   Checking for plaintext license.
+Info: cpu: # 2024.11.26 22:03:49 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2024.11.26 22:03:49 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2024.11.26 22:03:49 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2024.11.26 22:03:49 (*)   Plaintext license not found.
+Info: cpu: # 2024.11.26 22:03:49 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.11.26 22:03:49 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.11.26 22:03:49 (*)   Creating all objects for CPU
+Info: cpu: # 2024.11.26 22:03:50 (*)   Creating 'C:/Users/Admin/AppData/Local/Temp/alt0053_1361709341951241712.dir/0010_cpu_gen//system_nios2_gen2_0_cpu_nios2_waves.do'
+Info: cpu: # 2024.11.26 22:03:50 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.11.26 22:03:50 (*)   Creating plain-text RTL
+Info: cpu: # 2024.11.26 22:03:50 (*) Done Nios II generation
 Info: cpu: Done RTL generation for module 'system_nios2_gen2_0_cpu'
 Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
 Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
@@ -205,23 +205,15 @@ Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_me
 Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
 Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
 Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
-Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
 Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
-Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
 Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
-Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
 Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
-Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
-Info: Reusing file C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv
 Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
-Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
 Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
-Info: Reusing file C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv
-Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
 Info: Reusing file C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv
 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
-Info: system_tb: Done "system_tb" with 31 modules, 56 files
+Info: system_tb: Done "system_tb" with 25 modules, 51 files
 Info: qsys-generate succeeded.
 Info: sim-script-gen --spd=C:\4th_Year_1st_Sem\SoC\Lab\Personal_Prj\TH_SoC_Personal_Prj\system_tb.spd --output-directory=C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/ --use-relative-paths=true
 Info: Doing: ip-make-simscript --spd=C:\4th_Year_1st_Sem\SoC\Lab\Personal_Prj\TH_SoC_Personal_Prj\system_tb.spd --output-directory=C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/ --use-relative-paths=true
@@ -236,7 +228,7 @@ Info: Generating the following file(s) for NCSIM simulator in C:/4th_Year_1st_Se
 Info: 	cadence/cds.lib
 Info: 	cadence/hdl.var
 Info: 	cadence/ncsim_setup.sh
-Info: 	31 .cds.lib files in cadence/cds_libs/ directory
+Info: 	25 .cds.lib files in cadence/cds_libs/ directory
 Info: Generating the following file(s) for RIVIERA simulator in C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/ directory:
 Info: 	aldec/rivierapro_setup.tcl
 Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/.

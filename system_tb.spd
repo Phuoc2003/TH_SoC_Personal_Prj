@@ -14,14 +14,6 @@
    type="VERILOG"
    library="avalon_st_adapter" />
  <file
-   path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_mux_001.sv"
-   type="SYSTEM_VERILOG"
-   library="rsp_mux_001" />
- <file
-   path="system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv"
-   type="SYSTEM_VERILOG"
-   library="rsp_mux_001" />
- <file
    path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_mux.sv"
    type="SYSTEM_VERILOG"
    library="rsp_mux" />
@@ -30,21 +22,9 @@
    type="SYSTEM_VERILOG"
    library="rsp_mux" />
  <file
-   path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_demux_001.sv"
-   type="SYSTEM_VERILOG"
-   library="rsp_demux_001" />
- <file
    path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_rsp_demux.sv"
    type="SYSTEM_VERILOG"
    library="rsp_demux" />
- <file
-   path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_mux_001.sv"
-   type="SYSTEM_VERILOG"
-   library="cmd_mux_001" />
- <file
-   path="system/testbench/system_tb/simulation/submodules/altera_merlin_arbitrator.sv"
-   type="SYSTEM_VERILOG"
-   library="cmd_mux_001" />
  <file
    path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_mux.sv"
    type="SYSTEM_VERILOG"
@@ -54,25 +34,13 @@
    type="SYSTEM_VERILOG"
    library="cmd_mux" />
  <file
-   path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_demux_001.sv"
-   type="SYSTEM_VERILOG"
-   library="cmd_demux_001" />
- <file
    path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_cmd_demux.sv"
    type="SYSTEM_VERILOG"
    library="cmd_demux" />
  <file
-   path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_003.sv"
-   type="SYSTEM_VERILOG"
-   library="router_003" />
- <file
    path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_002.sv"
    type="SYSTEM_VERILOG"
    library="router_002" />
- <file
-   path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router_001.sv"
-   type="SYSTEM_VERILOG"
-   library="router_001" />
  <file
    path="system/testbench/system_tb/simulation/submodules/system_mm_interconnect_0_router.sv"
    type="SYSTEM_VERILOG"
@@ -202,7 +170,7 @@
    type="VERILOG"
    library="jtag_uart_0" />
  <file
-   path="system/testbench/system_tb/simulation/submodules/sine_wave_wrapper.v"
+   path="system/testbench/system_tb/simulation/submodules/clk_divider.v"
    type="VERILOG"
    library="Sine_Wave_Generator_0" />
  <file
@@ -222,7 +190,7 @@
    type="VERILOG"
    library="Sine_Wave_Generator_0" />
  <file
-   path="system/testbench/system_tb/simulation/submodules/clk_divider.v"
+   path="system/testbench/system_tb/simulation/submodules/sine_wave_wrapper.v"
    type="VERILOG"
    library="Sine_Wave_Generator_0" />
  <file

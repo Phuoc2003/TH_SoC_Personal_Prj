@@ -8,10 +8,11 @@ module sine_wave_wrapper(
 								 input  [1:0]  Address,
 								 input  [31:0] WriteData,
 								 output [31:0] ReadData,
-								 output [9:0]  oData_sin
+								 output [9:0]  oData_sin,
+								 output irq
 								 );
 
-	wire run, clk_1Mhz;
+	wire run, clk_1Mhz, enable_irq, clear_irq;
 	wire [7:0] fcw;
 	wire [9:0] phase;
 	wire [9:0] data_sin;
@@ -29,13 +30,18 @@ module sine_wave_wrapper(
 							.ReadData 	 (ReadData   ),
 							.run         (run        ),
 							.fcw		    (fcw	 	    ),
-							.data_sin	 (data_sin	 )
+							.data_sin	 (data_sin	 ),
+							.enable_irq	 (enable_irq ),
+							.clear_irq	 (clear_irq  )
 						  );
 
 	clk_divider clk_div(
 								.Clk(Clk),
 								.run(run),
-								.clk_1Mhz(clk_1Mhz)
+								.clk_1Mhz(clk_1Mhz),
+								.irq(irq),
+								.enable_irq(enable_irq),
+								.clear_irq	 (clear_irq  )
 							 );
 							 
 	sine_wave_generator sine_gen(

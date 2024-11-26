@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/software/Personal_Prj/obj/default/runtime/sim/mentor
 vclk_divider
-Z1 !s110 1732547879
+Z1 !s110 1732640144
 !i10b 1
-!s100 n1gj`2[o?VhJ[M<adl70f0
-IYXK<1`fNNh633@P0mN_R[0
+!s100 Ik]n8P5Iek@kCzoVSW`6k3
+I4_ij=3>deF3S]iZIGoE0a0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1732546107
+Z3 w1732635063
 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v
 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v
 L0 1
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1732547879.000000
+Z5 !s108 1732640144.000000
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v|
 !s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v|-work|Sine_Wave_Generator_0|
 !i113 1
@@ -74,8 +74,8 @@ R7
 vsine_wave_csr
 R1
 !i10b 1
-!s100 ZX?1F7iTNH6XJ;QGzTJXf3
-Ij[K>J?]N68LDSL7_Q`bnF3
+!s100 2ZWSD7;^0aBM7dl9eC6>V2
+IV_S2[4>3l]hmQ2PV]icmA3
 R2
 R0
 R3
@@ -116,8 +116,8 @@ R7
 vsine_wave_wrapper
 R1
 !i10b 1
-!s100 81N;M8<;:4h4FYDF^a@L:0
-IOl9=:kHEb^ZJnidbX21cW1
+!s100 iABSjDALAE6M<d[f:ZiSk2
+IUOUdbjLWSmbKDmW7j[a5n2
 R2
 R0
 R3

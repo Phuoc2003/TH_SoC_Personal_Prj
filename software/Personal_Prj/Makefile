@@ -35,7 +35,6 @@ ALT_CPPFLAGS :=
 ALT_ASFLAGS :=
 ALT_LDFLAGS :=
 
-
 #------------------------------------------------------------------------------
 #                         The adjust-path macro
 # 

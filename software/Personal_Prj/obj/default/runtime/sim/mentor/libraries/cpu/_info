@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/software/Personal_Prj/obj/default/runtime/sim/mentor
 vsystem_nios2_gen2_0_cpu
-Z1 !s110 1732547878
+Z1 !s110 1732640143
 !i10b 1
-!s100 WYMMRz5gF:nUe@7i3Sc::0
-I>JmZfKNFmR@GgLkO6;Q2G1
+!s100 =C91PB9DEja>1?2Ph@_@e0
+IOMkaOELXAOzaYWbPcn_X71
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1732546114
+Z3 w1732635071
 Z4 8C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v
 Z5 FC:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v
 L0 2834
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1732547878.000000
+Z7 !s108 1732640143.000000
 Z8 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v|
 Z9 !s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu.v|-work|cpu|
 !i113 1
@@ -51,7 +51,7 @@ R7
 R10
 R11
 vsystem_nios2_gen2_0_cpu_debug_slave_tck
-R1
+Z13 !s110 1732640144
 !i10b 1
 !s100 Gmi6K9cOT]^k[82V^KK[A1
 I>@:Uh9Vm`>Z]LiG;iUWa>2
@@ -72,7 +72,7 @@ R7
 R10
 R11
 vsystem_nios2_gen2_0_cpu_debug_slave_wrapper
-R1
+R13
 !i10b 1
 !s100 ?mW>2:9eR@Ne6hbJ3oP7]3
 I1gRG;Sg2K`LQC@k_WW7KM2
@@ -86,7 +86,7 @@ R6
 r1
 !s85 0
 31
-R7
+Z14 !s108 1732640144.000000
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu_debug_slave_wrapper.v|
 !s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu_debug_slave_wrapper.v|-work|cpu|
 !i113 1
@@ -95,8 +95,8 @@ R11
 vsystem_nios2_gen2_0_cpu_nios2_avalon_reg
 R1
 !i10b 1
-!s100 Q`K3O2zjV1HHMk6PH>E?i0
-IZiAJOK27zTU^j[@gI8kk>1
+!s100 [PLU9Y3IH]iIXV3>DSQ@B2
+IT>g[H67kn?Y7gA8^DL3YK3
 R2
 R0
 R3
@@ -513,7 +513,7 @@ R9
 R10
 R11
 vsystem_nios2_gen2_0_cpu_test_bench
-R1
+R13
 !i10b 1
 !s100 RV3GT4jjJ?D5S8a?NbW5S3
 IeCS7AfzDb6^`c;g6kZ<:Y0
@@ -527,7 +527,7 @@ R6
 r1
 !s85 0
 31
-R7
+R14
 !s107 C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu_test_bench.v|
 !s90 -reportprogress|300|C:/4th_Year_1st_Sem/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/system_nios2_gen2_0_cpu_test_bench.v|-work|cpu|
 !i113 1

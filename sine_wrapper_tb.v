@@ -10,7 +10,7 @@ module sine_wrapper_tb();
 	 reg 	[31:0] WriteData;
 	 wire [31:0] ReadData;
 	 wire [9:0]  oData_sin;
-   
+	 wire irq;
 	
     sine_wave_wrapper DUT(
 									.Clk(Clk),
@@ -21,7 +21,8 @@ module sine_wrapper_tb();
 									.Address(Address),
 									.WriteData(WriteData),
 									.ReadData(ReadData),
-									.oData_sin(oData_sin)
+									.oData_sin(oData_sin),
+									.irq(irq)
 								  );
 	 
 	 initial begin
@@ -43,44 +44,90 @@ module sine_wrapper_tb();
         #10;
         ChipSelect = 1;
         Write = 1;
+		  Read = 0;
         Address = 0; 
 		  WriteData = 16;
       
-        #10;
-        Write = 0;
-        WriteData=0;
-        Address = 0; 
       
-		  #20;
+		  #30;
         ChipSelect = 1;
         Write = 1;
+		  Read = 0;
         Address = 1; 
-        WriteData = 1;
+        WriteData = 3;
 		  
-		  #20;
-        ChipSelect = 1;
-        Read = 1;
-        Address = 2; 
+		  #30;
+        ChipSelect = 0;
+        Write = 0;
+		  Read = 0;
+        Address = 0; 
+        WriteData = 0;
+		  
+//		  #20;
+//        ChipSelect = 1;
+//		  Write = 0;
+//        Read = 1;
+//        Address = 3; 
       
 		  #10000000;
         ChipSelect = 1;
         Write = 1;
+		  Read = 0;
         Address = 1; 
         WriteData = 0;
 		  
-		  #20;
-        ChipSelect = 1;
-        Read = 0;
-        Address = 2; 
+		   
 		  
 		  #1000;
         ChipSelect = 1;
         Write = 1;
         Address = 1; 
-        WriteData = 1;
+        WriteData = 3;
+		  
+//		  #200;
+//        ChipSelect = 1;
+//        Read = 3;
+//        Address = 3;
         
 //        #1000 $finish;
     end
     	
+
+	initial 
+	begin
+		forever
+		begin
+			wait(irq);
+			begin
+				@(posedge Clk)
+				begin
+					ChipSelect = 1;
+					Write = 0;
+					Read = 1;
+					Address = 3; 
+				end
+				
+				repeat(1) @(posedge Clk)
+			
+				@(posedge Clk)
+				begin
+					ChipSelect = 1;
+					Write = 1;
+					Read = 0;
+					Address = 2;
+					WriteData = 1;
+				end
+				
+				@(posedge Clk)
+				begin
+					ChipSelect = 0;
+					Write = 0;
+					Read = 0;
+					Address = 0;
+					WriteData = 0;
+				end
+			end
+		end
+	end
 	
 endmodule

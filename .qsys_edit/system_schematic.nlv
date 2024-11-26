@@ -1,0 +1,20 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst system.nios2_gen2_0.cpu -pg 1
+preplace inst system.nios2_gen2_0.clock_bridge -pg 1
+preplace inst system.jtag_uart_0 -pg 1 -lvl 3 -y 40
+preplace inst system.nios2_gen2_0.reset_bridge -pg 1
+preplace inst system.onchip_memory2_0 -pg 1 -lvl 3 -y 140
+preplace inst system.nios2_gen2_0 -pg 1 -lvl 2 -y 90
+preplace inst system.Sine_Wave_Generator_0 -pg 1 -lvl 3 -y 220
+preplace inst system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst system.clk_0 -pg 1 -lvl 1 -y 280
+preplace netloc INTERCONNECT<net_container>system</net_container>(MASTER)nios2_gen2_0.instruction_master,(SLAVE)onchip_memory2_0.s1,(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)Sine_Wave_Generator_0.avalon_slave_0,(MASTER)nios2_gen2_0.data_master,(SLAVE)nios2_gen2_0.debug_mem_slave) 1 1 2 450 230 850
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)Sine_Wave_Generator_0.conduit_end,(SLAVE)system.sine_wave_generator_0_conduit_end) 1 0 3 NJ 270 NJ 270 NJ
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)clk_0.clk_in,(SLAVE)system.clk) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>system</net_container>(MASTER)nios2_gen2_0.debug_reset_request,(SLAVE)onchip_memory2_0.reset1,(SLAVE)Sine_Wave_Generator_0.reset_sink,(MASTER)clk_0.clk_reset,(SLAVE)nios2_gen2_0.reset,(SLAVE)jtag_uart_0.reset) 1 1 2 430 50 830
+preplace netloc POINT_TO_POINT<net_container>system</net_container>(MASTER)nios2_gen2_0.irq,(SLAVE)Sine_Wave_Generator_0.irq) 1 2 1 810
+preplace netloc FAN_OUT<net_container>system</net_container>(SLAVE)onchip_memory2_0.clk1,(SLAVE)jtag_uart_0.clk,(SLAVE)Sine_Wave_Generator_0.clock_sink,(SLAVE)nios2_gen2_0.clk,(MASTER)clk_0.clk) 1 1 2 410 30 870
+preplace netloc EXPORT<net_container>system</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)system.reset) 1 0 1 NJ
+levelinfo -pg 1 0 200 1080
+levelinfo -hier system 210 240 570 920 1070
