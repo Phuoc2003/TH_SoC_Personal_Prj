@@ -56,7 +56,6 @@ extern "C"
 {
 #endif /* __cplusplus */
 
-
 /*
  * Macros used by alt_irq_enabled
  */

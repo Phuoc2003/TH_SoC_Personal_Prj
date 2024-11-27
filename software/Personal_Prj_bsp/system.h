@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'system'
  * SOPC Builder design path: ../../system.sopcinfo
  *
- * Generated: Tue Nov 26 23:52:22 ICT 2024
+ * Generated: Wed Nov 27 09:54:37 ICT 2024
  */
 
 /*
@@ -146,8 +146,8 @@
 
 #define ALT_MODULE_CLASS_Sine_Wave_Generator_0 Sine_Wave_Generator
 #define SINE_WAVE_GENERATOR_0_BASE 0x11010
-#define SINE_WAVE_GENERATOR_0_IRQ -1
-#define SINE_WAVE_GENERATOR_0_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define SINE_WAVE_GENERATOR_0_IRQ 0
+#define SINE_WAVE_GENERATOR_0_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define SINE_WAVE_GENERATOR_0_NAME "/dev/Sine_Wave_Generator_0"
 #define SINE_WAVE_GENERATOR_0_SPAN 16
 #define SINE_WAVE_GENERATOR_0_TYPE "Sine_Wave_Generator"
@@ -159,6 +159,7 @@
  */
 
 #define ALT_DEVICE_FAMILY "Cyclone V"
+#define ALT_ENHANCED_INTERRUPT_API_PRESENT
 #define ALT_IRQ_BASE NULL
 #define ALT_LOG_PORT "/dev/null"
 #define ALT_LOG_PORT_BASE 0x0

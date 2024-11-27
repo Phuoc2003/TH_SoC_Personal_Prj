@@ -49,6 +49,14 @@
          type = "String";
       }
    }
+   element jtag_uart_0.irq
+   {
+      datum _tags
+      {
+         value = "";
+         type = "String";
+      }
+   }
    element nios2_gen2_0
    {
       datum _sortIndex

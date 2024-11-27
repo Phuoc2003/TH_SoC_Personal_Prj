@@ -37,11 +37,12 @@ module sine_wave_wrapper(
 
 	clk_divider clk_div(
 								.Clk(Clk),
+								.ResetN(ResetN),
 								.run(run),
 								.clk_1Mhz(clk_1Mhz),
 								.irq(irq),
 								.enable_irq(enable_irq),
-								.clear_irq	 (clear_irq  )
+								.clear_irq(clear_irq  )
 							 );
 							 
 	sine_wave_generator sine_gen(

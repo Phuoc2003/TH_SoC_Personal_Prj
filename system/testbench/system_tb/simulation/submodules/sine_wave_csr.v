@@ -18,12 +18,11 @@ module sine_wave_csr(
 	reg [31:0] data_reg;
 	reg [7:0] fcw_reg;
 	reg [2:0] control;
-	reg clear_irq_reg;
 	
 	assign enable_irq = control[1];
 	assign run = control[0];
 	assign fcw = fcw_reg;
-	assign clear_irq = clear_irq_reg;
+	assign clear_irq = ChipSelect && Write && (Address == 2);
 	assign ReadData = data_reg;
 	
 	always @(posedge Clk or negedge ResetN)
@@ -38,13 +37,9 @@ module sine_wave_csr(
 		else if (ChipSelect & Write & Address == 1) begin         
 			control    <= WriteData[1:0];    
 		end 
-		else if (ChipSelect & Write & Address == 2) begin         
-			clear_irq_reg    <= WriteData[0];    
-		end 
 		else begin
 			fcw_reg  <= fcw_reg;
 			control <= control;
-			clear_irq_reg <= clear_irq_reg;
 		end
 
 	end
@@ -57,8 +52,8 @@ module sine_wave_csr(
 		case (Address)
 		   	2'd0: data_reg <= {24'h0, fcw_reg};             
 				2'd1: data_reg <= {30'h0, control};
-				2'd2: data_reg <= {31'h0, control};	
-				2'd3: data_reg <= {22'h0, clear_irq_reg};   				
+				2'd2: data_reg <= {32'h0};	
+				2'd3: data_reg <= {22'h0, data_sin};   				
 		   	default: data_reg <= data_reg;
 		endcase
 		end else begin
