@@ -1,4 +1,4 @@
 eclipse.preferences.version=1
-newSoftwareExampleWizardPage.defaultLocation=C\:\\4th_Year_1st_Sem\\SoC\\Lab\\Personal_Prj\\TH_SoC_Personal_Prj\\software\\Personal_Prj
-newSoftwareExampleWizardPage.sopcinfoFile=C\:\\4th_Year_1st_Sem\\SoC\\Lab\\Personal_Prj\\TH_SoC_Personal_Prj\\system.sopcinfo
-newSoftwareExampleWizardPage2.newBspLocation=C\:\\4th_Year_1st_Sem\\SoC\\Lab\\Personal_Prj\\TH_SoC_Personal_Prj\\software\\Personal_Prj_bsp
+newSoftwareExampleWizardPage.defaultLocation=D\:\\SoC\\Lab\\Personal_Prj\\TH_SoC_Personal_Prj\\software\\Personal_Prj
+newSoftwareExampleWizardPage.sopcinfoFile=D\:\\SoC\\Lab\\Personal_Prj\\TH_SoC_Personal_Prj\\system.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=D\:\\SoC\\Lab\\Personal_Prj\\TH_SoC_Personal_Prj\\software\\Personal_Prj_bsp

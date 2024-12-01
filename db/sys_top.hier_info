@@ -1,16 +1,16 @@
 |sys_top
 CLOCK_50 => CLOCK_50.IN1
 KEY[0] => KEY[0].IN1
-GPIO[0] <= system:sys_top.sine_wave_generator_0_conduit_end_export
-GPIO[1] <= system:sys_top.sine_wave_generator_0_conduit_end_export
-GPIO[2] <= system:sys_top.sine_wave_generator_0_conduit_end_export
-GPIO[3] <= system:sys_top.sine_wave_generator_0_conduit_end_export
-GPIO[4] <= system:sys_top.sine_wave_generator_0_conduit_end_export
-GPIO[5] <= system:sys_top.sine_wave_generator_0_conduit_end_export
-GPIO[6] <= system:sys_top.sine_wave_generator_0_conduit_end_export
-GPIO[7] <= system:sys_top.sine_wave_generator_0_conduit_end_export
-GPIO[8] <= system:sys_top.sine_wave_generator_0_conduit_end_export
-GPIO[9] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[0] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[1] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[2] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[3] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[4] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[5] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[6] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[7] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[8] <= system:sys_top.sine_wave_generator_0_conduit_end_export
+LEDR[9] <= system:sys_top.sine_wave_generator_0_conduit_end_export
 
 
 |sys_top|system:sys_top
