@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/software/Personal_Prj/obj/default/runtime/sim/mentor
 vclk_divider
-Z1 !s110 1732677693
+Z1 !s110 1733221744
 !i10b 1
 !s100 Ik]n8P5Iek@kCzoVSW`6k3
 I22IJGbSnVfgDJUf77bMYo2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1732676047
+Z3 w1733221216
 8D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v
 FD:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v
 L0 1
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1732677693.000000
+Z5 !s108 1733221744.000000
 !s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v|
 !s90 -reportprogress|300|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/clk_divider.v|-work|Sine_Wave_Generator_0|
 !i113 1
@@ -32,8 +32,8 @@ Z7 tCvgOpt 0
 vphase_accumulator
 R1
 !i10b 1
-!s100 odKCFGmM4IzNnF9ZzJC;z3
-IClMFhc6@ZHVg?<j8DXm:B0
+!s100 FbO4P5IziOSO`D<[>Y:L_1
+IMKHzBGHNDMnR8kiJXo4bg3
 R2
 R0
 R3
@@ -51,7 +51,7 @@ R5
 R6
 R7
 vphase_to_amplitude_converter
-Z8 !s110 1732677694
+R1
 !i10b 1
 !s100 3?78?7^?^kL:4bFlk7Pe=0
 I]k;n[0O:f_TGK8C;^21EG2
@@ -72,7 +72,7 @@ R5
 R6
 R7
 vsine_wave_csr
-R8
+R1
 !i10b 1
 !s100 THcZLKYl7f5<S]c>51<Kz3
 IYZGXK^8>]>6^C;KQE@RRK0
@@ -86,17 +86,17 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1732677694.000000
+R5
 !s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_csr.v|
 !s90 -reportprogress|300|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_csr.v|-work|Sine_Wave_Generator_0|
 !i113 1
 R6
 R7
 vsine_wave_generator
-R8
+Z8 !s110 1733221745
 !i10b 1
-!s100 zLYOzAnX3d3BcGf1UWT6o1
-IXI2zdED8C6NEWI=;5D=3F0
+!s100 3INSOo5^Pf40daeAHiWAQ0
+I`2GL8R0KUk4<jjM3iAOOG3
 R2
 R0
 R3
@@ -107,7 +107,7 @@ R4
 r1
 !s85 0
 31
-R9
+Z9 !s108 1733221745.000000
 !s107 D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_generator.v|
 !s90 -reportprogress|300|D:/SoC/Lab/Personal_Prj/TH_SoC_Personal_Prj/system/testbench/system_tb/simulation/submodules/sine_wave_generator.v|-work|Sine_Wave_Generator_0|
 !i113 1
@@ -116,8 +116,8 @@ R7
 vsine_wave_wrapper
 R8
 !i10b 1
-!s100 AahW?>OlJYUQU30D;hek62
-IlJ4X`?[B`RmKz_=Eh9HNn1
+!s100 aRR8?4Q2aCSl8@zL6NF[h3
+IjRIKCdg0dMeB<;IROYH9@2
 R2
 R0
 R3

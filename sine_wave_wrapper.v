@@ -48,7 +48,8 @@ module sine_wave_wrapper(
 	sine_wave_generator sine_gen(
 										  .clk(clk_1Mhz),     
 										  .rst_n(ResetN),     
-										  .phase(phase),    
+										  .phase(phase),  
+										  .fcw(fcw),
 										  .data_sin(oData_sin)
 										 );
 				

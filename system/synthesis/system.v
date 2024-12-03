@@ -63,9 +63,9 @@ module system (
 		.WriteData  (mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_writedata),  //               .writedata
 		.ReadData   (mm_interconnect_0_sine_wave_generator_0_avalon_slave_0_readdata),   //               .readdata
 		.Clk        (clk_clk),                                                           //     clock_sink.clk
-		.ResetN     (~rst_controller_reset_out_reset),                                   //     reset_sink.reset_n
 		.oData_sin  (sine_wave_generator_0_conduit_end_export),                          //    conduit_end.export
-		.irq        (irq_mapper_receiver0_irq)                                           //            irq.irq
+		.irq        (irq_mapper_receiver0_irq),                                          //            irq.irq
+		.ResetN     (~rst_controller_reset_out_reset)                                    //   reset_sink_1.reset_n
 	);
 
 	system_jtag_uart_0 jtag_uart_0 (

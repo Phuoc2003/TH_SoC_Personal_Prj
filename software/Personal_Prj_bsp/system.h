@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'system'
  * SOPC Builder design path: ../../system.sopcinfo
  *
- * Generated: Wed Nov 27 09:54:37 ICT 2024
+ * Generated: Tue Dec 03 17:23:40 ICT 2024
  */
 
 /*
@@ -145,7 +145,7 @@
  */
 
 #define ALT_MODULE_CLASS_Sine_Wave_Generator_0 Sine_Wave_Generator
-#define SINE_WAVE_GENERATOR_0_BASE 0x11010
+#define SINE_WAVE_GENERATOR_0_BASE 0x11000
 #define SINE_WAVE_GENERATOR_0_IRQ 0
 #define SINE_WAVE_GENERATOR_0_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define SINE_WAVE_GENERATOR_0_NAME "/dev/Sine_Wave_Generator_0"
@@ -169,19 +169,19 @@
 #define ALT_NUM_INTERNAL_INTERRUPT_CONTROLLERS 1
 #define ALT_NUM_INTERRUPT_CONTROLLERS 1
 #define ALT_STDERR "/dev/jtag_uart_0"
-#define ALT_STDERR_BASE 0x11028
+#define ALT_STDERR_BASE 0x11018
 #define ALT_STDERR_DEV jtag_uart_0
 #define ALT_STDERR_IS_JTAG_UART
 #define ALT_STDERR_PRESENT
 #define ALT_STDERR_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDIN "/dev/jtag_uart_0"
-#define ALT_STDIN_BASE 0x11028
+#define ALT_STDIN_BASE 0x11018
 #define ALT_STDIN_DEV jtag_uart_0
 #define ALT_STDIN_IS_JTAG_UART
 #define ALT_STDIN_PRESENT
 #define ALT_STDIN_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDOUT "/dev/jtag_uart_0"
-#define ALT_STDOUT_BASE 0x11028
+#define ALT_STDOUT_BASE 0x11018
 #define ALT_STDOUT_DEV jtag_uart_0
 #define ALT_STDOUT_IS_JTAG_UART
 #define ALT_STDOUT_PRESENT
@@ -206,7 +206,7 @@
  */
 
 #define ALT_MODULE_CLASS_jtag_uart_0 altera_avalon_jtag_uart
-#define JTAG_UART_0_BASE 0x11028
+#define JTAG_UART_0_BASE 0x11018
 #define JTAG_UART_0_IRQ -1
 #define JTAG_UART_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define JTAG_UART_0_NAME "/dev/jtag_uart_0"
